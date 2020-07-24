@@ -7,6 +7,7 @@ let movePixel = 1;
 violetBlock.onclick = box2;
 greyBlock.onclick = box1;
 
+// load event
 window.addEventListener('load',() => {
 
     //initial properties of grey block
@@ -21,6 +22,7 @@ window.addEventListener('load',() => {
     
 })
 
+// function for grey block
 function box1()
 {
     window.addEventListener('keyup',(e) => {
@@ -44,6 +46,7 @@ function box1()
 
 }
 
+// function for violet block
 function box2()
 {
     
